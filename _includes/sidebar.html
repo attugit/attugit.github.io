@@ -12,6 +12,11 @@
 </div>
 
 <div class="sidebar well">
-{% capture links %}{% include links.md %}{% endcapture %}
-{{ links | markdownify }}
+  {% capture links %}{% include links.md %}{% endcapture %}
+  {{ links | markdownify }}
+</div>
+
+<div class="sidebar well">
+  {% capture blogs %}{% include blogs.md %}{% endcapture %}
+  {{ blogs | markdownify }}
 </div>
