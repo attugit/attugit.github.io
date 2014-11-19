@@ -50,11 +50,3 @@ body {
     color: #ee4444;
 }
 
-.highlight  { background: #ffffff; }
-.highlight .c { color: #999988; font-style: italic } /* Comment */
-.highlight .k { font-weight: bold } /* Keyword */
-.highlight .cm { color: #999988; font-style: italic } /* Comment.Multiline */
-.highlight .cp { color: #999999; font-weight: bold } /* Comment.Preproc */
-.highlight .kt { color: #445588; font-weight: bold } /* Keyword.Type */
-.highlight .s { color: #d14; font-style: italic } /* Literal.String */
-.highlight .nf { color: #990000; font-weight: bold } /* Name.Function */
