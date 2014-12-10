@@ -42,6 +42,12 @@ body {
     font-size: 1.3em;
 }
 
+.well code {
+    color: #696969;
+    font-size: 1.0em;
+    background-color: transparent;
+}
+
 .author {
     color: #ee4444;
 }

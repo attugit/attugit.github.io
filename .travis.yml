@@ -1,0 +1,19 @@
+language: ruby
+cache: bundler
+sudo: false
+rvm:
+  - 2.1
+
+install:
+  - bundle install
+
+script: make build
+
+branches:
+  only:
+  - master
+  - post_dev
+
+env:
+  global:
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
